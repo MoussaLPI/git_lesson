@@ -499,7 +499,7 @@ git push --force origin master
 - **<font color='#ffb799'>Create a new branch and go on it.</font>**
 - **<font color='#ffb799'>Do the Forrest Gump correction (like in the begining of the previous exercise) and push it on the new branch.</font>**
 
-# Exercise 8: Changing Branch 
+# Exercise 9: Changing Branch 
 #### We will work with our last movie **Titanic** let's see the dialog:
 ![TitanicUrl](https://media.giphy.com/media/cMpmHKo9tGYfe/giphy.gif "Titanic")
 
@@ -508,7 +508,7 @@ git push --force origin master
 - **<font color='#ffb799'>edit answer/Jack.txt file with the replace_in_file script</font>**
 - **<font color='#ffb799'>Push changes to the master branch</font>**
 
-# Exercise 9: Merging two branches 
+# Exercise 10: Merging two branches 
 #### Now we will merge the branch you created into the master branch.
 ***<font color='#ffb799'>Questions</font>***
 - **<font color='#ffb799'>Merge the branch you created in Exercise 7 in the master branch</font>**
@@ -521,6 +521,7 @@ git push --force origin master
 > - Working with branches is the best way to use git, and we don't recommend to push stuff on the master branch, even if it's just your project. The master branch should always remain a pure and free-of-bugs zone.
 > 
 
+<img src=./images/merge.png>
 
 # If you came this far, you have finished the first part!! well done!
 
