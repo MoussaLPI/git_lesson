@@ -291,25 +291,19 @@ sh replace_in_file character2/Emmet.txt "[Do you wanna runs outside from the hou
 
 ```bash
 # Your answer
-
+git commit -a
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "My fiveth commit"
 ```
 
 
 ```bash
 # Your answer
-
-```
-
-
-```bash
-# Your answer
-
+git push --force origin master
 ```
 
 # Exercise 6: Revert a local commit
