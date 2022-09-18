@@ -246,7 +246,7 @@ python display_dialog.py --char1 character1/appollo13.txt --char2 character2/Jim
 
 ```bash
 # Your answer
-sh replace_in_file character2/Jim.txt "[???]"
+sh replace_in_file character2/Jim.txt "[He stirred the tanks]"
 ```
 
 **<font color='#ffb799'>And now update changes on remote server</font>**
@@ -254,25 +254,19 @@ sh replace_in_file character2/Jim.txt "[???]"
 
 ```bash
 # Your answer
-
+git commit -a
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "My fourth commit"
 ```
 
 
 ```bash
 # Your answer
-
-```
-
-
-```bash
-# Your answer
-
+git push --force origin master
 ```
 
 ### 5.4 Back to the future part II
@@ -289,7 +283,7 @@ python display_dialog.py --char1 character1/Marty.txt --char2 character2/Emmet.t
 
 ```bash
 # Your anwser
-sh replace_in_file character2/Emmet.txt "[???]"
+sh replace_in_file character2/Emmet.txt "[Do you wanna runs outside from the house?]"
 ```
 
 **<font color='#ffb799'>And now update changes on remote server</font>**
