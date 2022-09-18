@@ -332,19 +332,19 @@ sh replace_in_file character2/Luke.txt "[???]"
 
 ```bash
 # Your answer
-
+sh replace_in_file character2/Luke.txt "[NOOOOOOOOOOOOOO NOOOOOOOO]"
 ```
 
 
 ```bash
 # Your answer
-
+git commit -a
 ```
 
 
 ```bash
 # Your answer
-
+git commit
 ```
 
 Ok, in fact I was wrong Luke didn't said it twice, it think it was just one simple *"NOOOOO"*.
