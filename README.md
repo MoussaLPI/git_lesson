@@ -479,7 +479,7 @@ git revert e9170f3 #first commit id
 
 ```bash
 # Your answer
-git commit -a
+git add .
 ```
 
 ```bash
