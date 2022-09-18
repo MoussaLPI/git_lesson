@@ -439,25 +439,25 @@ sh replace_in_file character1/Forrest.txt "[???]"
 
 ```bash
 # Your answer
-
+sh replace_in_file character1/Forrest.txt "[that]"
 ```
 
 
 ```bash
 # Your answer
-
+git commit -a
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m 'choicepoint'
 ```
 
 
 ```bash
 # Your answer
-
+git push --force origin master
 ```
 
 Perfect now let's imagine that we want to go back to the status we had before this exercise.
@@ -467,25 +467,30 @@ Perfect now let's imagine that we want to go back to the status we had before th
 
 ```bash
 # Your answer
-
+git log --oneline
 ```
 
 
 ```bash
 # Your answer
+git revert e9170f3 #first commit id
+```
+<img src=./images/revertpoint.png>
 
+```bash
+# Your answer
+git commit -a
+```
+
+```bash
+# Your answer
+git commit -m 'Revert point'
 ```
 
 
 ```bash
 # Your answer
-
-```
-
-
-```bash
-# Your answer
-
+git push --force origin master
 ```
 
 # Exercise 8: Creating a branch 
