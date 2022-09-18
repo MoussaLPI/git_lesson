@@ -38,6 +38,7 @@ Of course each command could be reversed, but some of them are harder to reverse
 
 ```bash
 # Your answer
+git clone https://github.com/maxpoulain/git_lesson.git
 
 ```
 
@@ -79,7 +80,7 @@ Your job will be to replace the last line of the dialog, don't worry I wrote a s
 
 ```bash
 # Your answer
-sh replace_in_file character1/Ygritte.txt "[???]"
+sh replace_in_file character1/Ygritte.txt "[Well, then how it works?]"
 ```
 
 Perfect now that you have done a modification on a file, you can commit it on git.
@@ -89,7 +90,7 @@ Perfect now that you have done a modification on a file, you can commit it on gi
 
 ```bash
 # Your answer
-
+git commit -m "My first commit after completing Ygritte conversation"
 ```
 
 Did not work? that's normal you can't commit files that you did not add to your local changes. To see the files that have changes we usually use `git status`
@@ -106,15 +107,17 @@ git status
 
 ```bash
 # Your answer
-
+git commit -a
 ```
-
+This above script allow us to avoid using **git add**
+This script above can be used to see the recent modification not committed and add them to local changes
+<img src=./images/firstcommit.png>
 
 ```bash
 # Your answer
-
+git commit -m "My first commit after completing Ygritte conversation"
 ```
-
+<img src=./images/gitcommit.png>
 **Bravo!** You have done you're first commit
 
 # Exercise 4: Push
@@ -125,9 +128,9 @@ git status
 
 ```bash
 # Your answer
-
+git push --force origin master
 ```
-
+<img src=./images/pushing.png>
 Easy right? Now you can check that everything is ok on the github page.
 
 You just pushed to the master branch your commit. You can also commit multiple times before pushing to the master branch. It will push all your local commits to the remote server at the same time and you could still keep track of every commits you've done.
@@ -168,7 +171,7 @@ python display_dialog.py --char1 character1/James.txt --char2 character2/Sylvia.
 
 ```bash
 # Your answer
-sh replace_in_file character1/James.txt "[???]"
+sh replace_in_file character1/James.txt "[Hhhh! That's weird, luck is random but hard work lead to success!!!]"
 ```
 
 **<font color='#ffb799'>And now update changes on remote server</font>**
@@ -176,27 +179,21 @@ sh replace_in_file character1/James.txt "[???]"
 
 ```bash
 # Your answer
-
+git commit -a
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "second commit"
 ```
 
 
 ```bash
 # Your answer
-
+git push --force origin master
 ```
-
-
-```bash
-# Your answer
-
-```
-
+<img src=./images/Bond.png>
 ### 5.2 Fight Club
 ![FightClubUrl](https://media.giphy.com/media/l46CeDBwmtMi1ddkc/giphy.gif "fight club")
 
@@ -211,33 +208,28 @@ python display_dialog.py --char1 character1/voice_fc.txt --char2 character2/Tyle
 
 ```bash
 # Your answer
-sh replace_in_file character2/Tyler.txt "[???]"
+sh replace_in_file character2/Tyler.txt "[to respect each other when you're here]"
 ```
 
 **<font color='#ffb799'>And now update changes on remote server</font>**
 
 
+
 ```bash
 # Your answer
-
+git commit -a
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m "My thirth commit"
 ```
 
 
 ```bash
 # Your answer
-
-```
-
-
-```bash
-# Your answer
-
+git push --force origin master
 ```
 
 ### 5.3 Apollo 13
