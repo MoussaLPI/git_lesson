@@ -359,19 +359,19 @@ Ok, in fact I was wrong Luke didn't said it twice, it think it was just one simp
 
 ```bash
 # Your answer
-
+sh replace_in_file character2/Luke.txt "[NOOOOOOOOOOOOOO]"
 ```
 
 
 ```bash
 # Your answer
-
+git commit -a
 ```
 
 
 ```bash
 # Your anwser
-
+git commit
 ```
 
 Well after reviewing the scene (that you can find just here: https://www.youtube.com/watch?v=bv20ZoBcdO8 we were right in the first place.
@@ -381,19 +381,19 @@ Well after reviewing the scene (that you can find just here: https://www.youtube
 
 ```bash
 # Your answer
-
+git reset
 ```
 
 
 ```bash
 # Your answer
-
+git commit -a
 ```
 
 
 ```bash
 # Your answer
-
+git commit -m 'lastpoint'
 ```
 
 **<font color='#ffb799'>Push your changes to the remote server.</font>**
@@ -401,13 +401,7 @@ Well after reviewing the scene (that you can find just here: https://www.youtube
 
 ```bash
 # Your answer
-
-```
-
-
-```bash
-# Your answer
-
+git push --force origin master
 ```
 
 You just reverted a local commit and pushed, well done!
